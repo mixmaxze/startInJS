@@ -1,37 +1,9 @@
-let lideresDeGinasio = {
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
 
-    Kanto: {
+var num = lines.shift();
 
-        tipoPedra: "Brock",
-        tipoAgua: "Misty",
-        tipoEletrico: "Lt. Surge",
-        tipoVeneno: "Koga",
-        tipoPsiquico: "Sabrina",
-        tipoGrama: "Erika",
-        tipoFogo: "Blaine",
-        tipoTerra: "Giovanni"
-
-    },
-
-    Johto: {
-
-        tipoVoador: "Falkner",
-        tipoInseto: "Bugsy",
-        tipoNormal: "Whitney",
-        tipoFantasma: "Morty",
-        tipoMetalico: "Jasmine",
-
-    },
-
-    Unova: {
-
-        tipoNormal = "Lenora",
-        tipoGrama = "Cilan",
-        tipoEletrico = "Elesa",
-    
-    }
-
+for (let i = 1; i <= num; i++) {
+    console.log(i, Math.pow(i, 2), Math.pow(i,3))
+    console.log(i, Math.pow(i,2) + 1, Math.pow(i,3) + 1)
 }
-
-console.log(lideresDeGinasio.Kanto.tipoAgua)
-console.log(lideresDeGinasio.Johto.tipoFantasma)
