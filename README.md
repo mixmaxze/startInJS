@@ -11,3 +11,5 @@
 5 - [Array](https://github.com/mixmaxze/startInJS/tree/master/Array)
 
 6 - [Node](https://github.com/mixmaxze/startInJS/tree/master/Node)
+
+7 - [ECMAScript (novas funcionalidades)](https://github.com/mixmaxze/startInJS/tree/master/Ecma%20Script%20Next)
